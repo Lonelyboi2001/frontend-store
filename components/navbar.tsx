@@ -3,16 +3,18 @@ import Container from "./ui/container";
 import MainNav from "./main-nav";
 import getCategories from "@/actions/get-categories";
 import NavbarAction from "./navbar-actions";
+import Image from "next/image";
+import logoImg from '../public/logo.png'
 
 const Navbar = async () => {
     const categories = await getCategories();
 
     return ( 
-       <div className="border-b">
+       <div className="border-b sticky bg-white z-50 top-0">
             <Container >
-                <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center">
+                <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
                     <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
-                        <p className="font-bold text-x">Store</p>
+                        <Image src={logoImg} alt="logo" width={60} height={60} />
                     </Link>
                     <MainNav data={categories} />
                     <NavbarAction />
