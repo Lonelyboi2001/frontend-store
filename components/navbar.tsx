@@ -4,7 +4,9 @@ import MainNav from "./main-nav";
 import getCategories from "@/actions/get-categories";
 import NavbarAction from "./navbar-actions";
 import Image from "next/image";
-import logoImg from '../public/logo.png'
+import logoImg from '../public/logo.png';
+
+export const revalidate = 0;
 
 const Navbar = async () => {
     const categories = await getCategories();
