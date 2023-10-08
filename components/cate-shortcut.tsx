@@ -8,7 +8,7 @@ import Monbanner3 from '@/public/tools.webp';
 
 const CateShort = () => {
     return ( 
-    <section className=" w-full max-w-7xl mx-auto flex gap-10 justify-center items-center overflow-x-scroll">
+    <section className="mt-8 w-full max-w-7xl mx-auto flex gap-10 justify-center items-center overflow-x-scroll">
         <a href="/category/280f4b59-b6bc-4b34-bc15-a13a960de780" className="cate-item flex flex-col justify-center items-center"> 
             <Image src={Akko1} className="rounded-full w-16 h-16 object-cover hover:rotate-45 hover:transition-all transition-all" alt="cate" />
             <div className="text-center mt-2">Akko</div>
