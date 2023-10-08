@@ -4,7 +4,7 @@ import { HelpingHand, Inbox, Star, Truck } from "lucide-react";
 
 const Warranty = () => {
     return ( 
-        <section className="mx-auto">
+        <section className="mx-auto mb-8">
             <div className="flex justify-center items-baseline gap-8">
                 <div className="max-w-xs">
                     <span className="flex gap-4 items-center" >
