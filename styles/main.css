@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html,
 body,
 :root {
   height: 100%;
+  --swiper-theme-color: #ffffff;
+  --swiper-navigation-size: 30px;
 }

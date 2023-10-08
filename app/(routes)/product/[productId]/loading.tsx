@@ -4,7 +4,7 @@ import Skeleton from "@/components/ui/skeleton";
 const Loading = () => {
   return (
     <Container>
-      <div className="w-full h-full p-8">
+      <div className="w-full h-full p-8 max-w-7xl mx-auto">
         <div className="mx-auto px-4 py-10 sm:px-6 max-w-7xl lg:px-8">
           <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
             <Skeleton className="rounded-xl aspect-square" />

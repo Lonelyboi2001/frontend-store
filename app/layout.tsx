@@ -1,5 +1,5 @@
 import Footer from '@/components/footer'
-import './globals.css'
+import '@/styles/main.css';
 import type { Metadata } from 'next'
 import { Urbanist } from 'next/font/google'
 import Navbar from '@/components/navbar'

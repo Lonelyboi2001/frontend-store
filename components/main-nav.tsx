@@ -1,4 +1,4 @@
-"use client";11
+"use client";
 
 import { cn } from "@/lib/utlis";
 import { Category } from "@/types";
