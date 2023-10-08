@@ -31,7 +31,7 @@ const MainNav: React.FC<MainNavProps> = ({data}) => {
                 </Link>
             ))}
         </nav>
-     );
-}
+    )
+};
  
 export default MainNav;
